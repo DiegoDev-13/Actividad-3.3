@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliWeb</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="/static/img/icon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img src="/static/img/logo.png"  class="logo" alt="Logo"></a>
+        <i class="bi bi-list abrir-menu" id="abrir"></i>
+        <nav class="nav" id="nav">
+            <i class="bi bi-x-circle cerrar-menu" id="cerrar"></i>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Promocion</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container-contacto">
+        <h2>Si eres <span class="text-color">proveedor</span>  o <span class="text-color">cliente</span> y tienes dudas puedes contactarnos mediante nuestro formulario</h2>
+        <div class="container-form">
+            <form>
+                <h3 class="text-contacto">CONTACTO</h3>
+                <div class="c-form">
+                    <label for="idInCE" class="text-label">Correo Electrónico</label>
+                    <input type="email" class="s-form" id="idInCE" placeholder="name@example.com">
+                </div>
+                <div class="c-form">
+                    <label for="idInNom" class="text-label">Nombre</label>
+                    <input type="text" class="s-form" id="idInNom" placeholder="Nombre">
+                </div>
+                <div class="c-form">
+                    <label for="idInMen" class="text-label">Mensaje</label>
+                    <textarea id="idInMen" class="s-form-t" rows="4"></textarea>
+                </div>
+                <button id="idBtnEnviar" class="btn-price">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <section class="info-footer">
+            <div class="description-footer">
+                <img src="/static/img/logo.png" alt="Logo" class="logo-footer">
+                <p class="description-p">DeliWeb no es un establecimiento de comida rápida sino un restaurante con una gastronomía innovadora que tiene la Hamburguesa Premium como plato principal y donde todo se hace al momento.</p>
+                <div class="resde-footer">
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-instagram iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-facebook iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-twitter iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-whatsapp iconf"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="c-links">
+                <div class="links-footer">
+                    <h3>Acerca De</h3>
+                    <ul>
+                        <li><a href="nosotros.html">Historia</a></li>
+                        <li><a href="#">Nuestro equipo</a></li>
+                        <li><a href="#">Direcciones</a></li>
+                        <li><a href="#">Terminos & Condiciones</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="links-footer">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Ordenes</a></li>
+                        <li><a href="productos.html">Nuestros productos</a></li>
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Metodos de pago</a></li>
+                    </ul>
+                </div>
+                <div class="links-footer">
+                    <h3>Otros</h3>
+                    <ul>
+                        <li><a href="contacto.html">Contactanos</a></li>
+                        <li><a href="contacto.html">Ayuda</a></li>
+                        <li><a href="nosotros.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <span>Copyright © 2023 DeliWeb | Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+      </script>
+</body>
+</html>

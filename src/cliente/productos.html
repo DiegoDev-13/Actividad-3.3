@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliWeb</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="/static/img/icon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img src="/static/img/logo.png"  class="logo" alt="Logo"></a>
+        <i class="bi bi-list abrir-menu" id="abrir"></i>
+        <nav class="nav" id="nav">
+            <i class="bi bi-x-circle cerrar-menu" id="cerrar"></i>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Promocion</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container-productos">
+        <h2 class="typing__effect2">Productos.</h2>
+        <div class="c-card-productos" data-aos="fade-right">
+            <div class="card-productos card-animacion3">
+                <img src="/static/img/producto-entradas.png" alt="">
+                <h4>ENTRANTES</h4>
+                <a href="#container-entradas-info">Ver más</a>
+            </div>
+            <div class="card-productos card-animacion3">
+                <img src="/static/img/productos-ensaladas.png" alt="">
+                <h4>ENSALADAS</h4>
+                <a href="#container-ensaladas-info">Ver más</a>
+            </div>
+            <div class="card-productos card-animacion3">
+                <img src="/static/img/productos-burges.png" alt="">
+                <h4>BURGERS</h4>
+                <a href="#container-burger-info">Ver más</a>
+            </div>
+            <div class="card-productos card-animacion3">
+                <img src="/static/img/productos-postres.png" alt="">
+                <h4>POSTRES</h4>
+                <a href="#container-postres-card">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-entradas-info" id="container-entradas-info"> 
+        <h2>ENTRADAS</h2>
+        <p class="text1-entradas">Para compartir o no... ¡Tú decides!</p>
+        <p class="text2-entradas">La vida está para morderla, para dejar que te sorprenda, para probar y para sonreír después de cada bocado, si eres de los que se atreve este es tu lugar de la carta, nuestras burgers especiales te están esperando.</p>
+    </section>
+
+    <section class="container-entradas-card">
+
+        <div class="entradas-c">
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$6.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/entradas/img1.jpg" alt="Entradas comida">
+                    <h4>Huevos Camperos</h4>
+                    <p class="entradas-text-inf">Con jamón de castaña y patatas fritas caseras</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$5.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/entradas/img2.jpg" alt="Entradas comida">
+                    <h4>Guanajuatos</h4>
+                    <p class="entradas-text-inf">Totopos de maíz blanco y azul, guacamole, tinga de pollo, queso Monterrey, pico de gallo y jalapeños
+                        <br>
+                        (Disponible versión vegana)</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$6.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/entradas/img3.jpg" alt="Entradas comida">
+                    <h4>Fingers de pollo</h4>
+                    <p class="entradas-text-inf">con ali-oli verde</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$4.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/entradas/img4.jpg" alt="Entradas comida">
+                    <h4>Langostinos</h4>
+                    <p class="entradas-text-inf">Empanados con salsa dulce y picante</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="container-entradas-info" id="container-ensaladas-info">
+        <h2>ENSALADAS</h2>
+        <p class="text1-entradas">Fresquitas y deliciosas</p>
+        <p class="text2-entradas">La mejor combinación de ingredientes y sabores en un mismo plato. Tenemos la mejor alternativa para que disfrutes de esta nueva experiencia.</p>
+    </section>
+
+    <section class="container-entradas-card">
+        <div class="entradas-c">
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$8.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/ensaladas/img1.jpg" alt="Ensaladas">
+                    <h4>Pollo crujiente</h4>
+                    <p class="entradas-text-inf">Variado de lechugas y canónigos, pollo crujiente, lascas de Parmesano, aguacate, bacon y tomate con salsa César.</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$5.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/ensaladas/img2.jpg" alt="Ensaladas">
+                    <h4>Ensalada Tropical</h4>
+                    <p class="entradas-text-inf">Mezclum de lechugas, langostinos salteados, piña a la parrilla, aguacate, papaya y anacardos con vinagreta cítrica</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$7.99</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/ensaladas/img3.jpg" alt="Ensaladas">
+                    <h4>De la huerta</h4>
+                    <p class="entradas-text-inf">Variado de lechugas, canónigos y rúcula, verduras asadas, pollo 100% vegano Heura®, chips de boniato y aliño de tomate seco</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$9.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/ensaladas/img4.jpg" alt="Ensaladas">
+                    <h4>Rulo de cabra</h4>
+                    <p class="entradas-text-inf">Variado de lechugas, canónigos y rúcula, Cherrys asados, rulo de cabra, jamón crujiente, frutos secos, pasas y vinagreta de frutos rojos con reducción de Módena</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-promo-productos">
+        <div class="promo-productos">
+            <h2>Solo por hoy hasta un <span>20%</span> de descuento</h2>
+            <div class="c-btn-promo">
+                <a href="#"><button class="btn-price">PEDIR YA!</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-burger-info" id="container-burger-info">
+        <h2>BURGERS</h2>
+        <p class="text1-burger">Garantía de “EL CAPRICHO”</p>
+        <p class="text2-burger">Nuestras burgers están elaboradas con cuartos delanteros y falda de buey criado en libertad, alimentado de forma natural y con una media de edad de siete años. La carne de nuestro proveedor, ha sido considerada por prestigiosos medios internacionales como una de las mejores carnes de buey del mundo.</p>
+    </section>
+
+    <section class="container-burgers-card">
+        <div class="burgers-card-c">
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$9.99</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img1.jpg" alt="Burgers">
+                    <h4>La Pepita</h4>
+                    <p class="entradas-text-inf">Burger de ternera, queso cheddar, lechuga, tomate y cebolla roja en pan artesano</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$7.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img2.jpg" alt="Burgers">
+                    <h4>Burger Chaparrita</h4>
+                    <p class="entradas-text-inf">Burger de ternera, guacamole, jalapeños, bacon, lechuga, tomate y cebolla roja</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$8.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img3.jpg" alt="Burgers">
+                    <h4>Burger Manteca</h4>
+                    <p class="entradas-text-inf">Burger de buey con doble de queso cheddar, lechuga, tomate y cebolla roja</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$8.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img4.jpg" alt="Burgers">
+                    <h4>Burger Rianxeira</h4>
+                    <p class="entradas-text-inf">Burger de ternera, queso San Simón gratinado, panceta crujiente, lechuga, tomate y cebolla roja</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="burgers-card-c">
+
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$9.99</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img5.jpg" alt="Burgers">
+                    <h4>Burger Sorrentina</h4>
+                    <p class="entradas-text-inf">Burger de ternera, rúcula, mozzarella fresca fundida, orégano, tomate seco en aceite de oliva y cebolla crujiente</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$11.99</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img6.jpg" alt="Burgers">
+                    <h4>Burger Summum</h4>
+                    <p class="entradas-text-inf">Burger de buey con queso azul, lechuga, tomate y cebolla caramelizada en pan artesano</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$10.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img7.jpg" alt="Burgers">
+                    <h4>Burger Smoky</h4>
+                    <p class="entradas-text-inf">Bacon, mozarella Scamorza ahumada, chili mayo, rúcula, salsa barbacoa y cebolla en tempura</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$13.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/burgers/img8.jpg" alt="Burgers">
+                    <h4>Rulo de cabra</h4>
+                    <p class="entradas-text-inf">Burger vegana, queso vegano, guacamole, lechuga, tomate y cebolla crujiente en pan artesano</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-entradas-info" id="container-postres-card">
+        <h2>POSTRES</h2>
+        <p class="text1-entradas">El momento más dulce</p>
+        <p class="text2-entradas">No te olvides de dejar hueco para acabar la velada como se merece. Todos nuestros postres son caseros y hechos en el día.</p>
+    </section>
+
+    <section class="container-postres-card">
+        <div class="postres-c">
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$5.50</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/postres/img1.jpg" alt="Postres">
+                    <h4>Pudding De Toffee</h4>
+                    <p class="entradas-text-inf">Bizcocho cremoso y caliente recubierto de toffee con helado de plátano</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$7.99</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/postres/img2.jpg" alt="Postres">
+                    <h4>Brownie</h4>
+                    <p class="entradas-text-inf">Brownie de chocolate belga con helado de vainilla</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$5.00</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/postres/img3.jpg" alt="Postres">
+                    <h4>Crumble</h4>
+                    <p class="entradas-text-inf">Crumble de manzana asada con sorbete de mora</p>
+                </div>
+            </div>
+
+            <div class="card-entradas book">
+                <div class="price">
+                    <p class="text-price">$4.50</p>
+                    <a href="#"><span class="btn-price">ORDENAR!</span></a>
+                </div>
+                <div class="cover">
+                    <img src="/static/img/postres/img4.jpg" alt="Postres">
+                    <h4>Helado</h4>
+                    <p class="entradas-text-inf">2 bolas de helado elegir: fresa, vainilla, mora, chocolate o plátano banoffee</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <footer>
+        <section class="info-footer">
+            <div class="description-footer">
+                <img src="/static/img/logo.png" alt="Logo" class="logo-footer">
+                <p class="description-p">DeliWeb no es un establecimiento de comida rápida sino un restaurante con una gastronomía innovadora que tiene la Hamburguesa Premium como plato principal y donde todo se hace al momento.</p>
+                <div class="resde-footer">
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-instagram iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-facebook iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-twitter iconf"></i></a>
+                    </div>
+                    <div class="iconfc">
+                        <a href="#"><i class="bi bi-whatsapp iconf"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="c-links">
+                <div class="links-footer">
+                    <h3>Acerca De</h3>
+                    <ul>
+                        <li><a href="nosotros.html">Historia</a></li>
+                        <li><a href="#">Nuestro equipo</a></li>
+                        <li><a href="#">Direcciones</a></li>
+                        <li><a href="#">Terminos & Condiciones</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="links-footer">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Ordenes</a></li>
+                        <li><a href="productos.html">Nuestros productos</a></li>
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Metodos de pago</a></li>
+                    </ul>
+                </div>
+                <div class="links-footer">
+                    <h3>Otros</h3>
+                    <ul>
+                        <li><a href="contacto.html">Contactanos</a></li>
+                        <li><a href="contacto.html">Ayuda</a></li>
+                        <li><a href="nosotros.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <span>Copyright © 2023 DeliWeb | Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+    <script src="bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+      </script>
+</body>
+</html>
